@@ -5,12 +5,18 @@
     <title>From Peak - Keep Pushing</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.1/dist/tailwind.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Peak - Keep Pushing</title>
     <style>    
-    
         /* Custom styles here */
         body {
             background-color: #722f37; /* Wine color */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative; /* Added */
         }
 
         .sporty-font {
@@ -27,8 +33,28 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
+        /* Style for the button */
+        .back-to-home {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            z-index: 999;
+            text-decoration: none; /* Added */
+        }
+
+        /* Hover effect for the button */
+        .back-to-home:hover {
+            background-color: #dddddd;
+        }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,8 +65,12 @@
           <h1 class="text-4xl md:text-7xl font-bold sporty-font">Form Peak</h1>
         </div>
     </section>
+
+    <!-- Button to go back to home -->
+    <a href="https://formpeak.site" class="back-to-home">Form Peak</a>
 </body>
 </html>
+
 
   <!-- Tips Section -->
   <section id="features" class="py-16 bg-red-100">
